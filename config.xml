@@ -1,0 +1,17 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>CatastroFiscal</Name><AddInID>{76e1e3f6-fb38-49f5-b38b-71da5748d475}</AddInID><Description>Addin de herramientas para catastro fiscal</Description><Version>0.1</Version><Image>Images\settings.png</Image><Author>jlyh</Author><Company>BM</Company><Date>08/26/2022</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="CatastroFiscalAddin_addin.py" namespace="CatastroFiscalAddin_addin"><ArcMap>
+    <Commands>
+        <Button caption="CargarCapas" category="CatastroFiscal" class="CargarCapasClass" id="CatastroFiscalAddin_addin.btnCargarCapas" image="Images\upload (1).png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="VerificacionDominios" category="CatastroFiscal" class="VerificacionDominiosClass" id="CatastroFiscalAddin_addin.btnVerificacionDominios" image="Images\clipboard.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="DuplicadoTabular" category="CatastroFiscal" class="DuplicadoTabularClass" id="CatastroFiscalAddin_addin.btnDuplicadoTabular" image="Images\file.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="DuplicadoEspacial" category="CatastroFiscal" class="DuplicadoEspacialClass" id="CatastroFiscalAddin_addin.btnDuplicadoEspacial" image="Images\location.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="GenerarID" category="CatastroFiscal" class="GenerarIDClass" id="CatastroFiscalAddin_addin.btnGenerarID" image="Images\id.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="GenerarCPU" category="CatastroFiscal" class="GenerarCPUClass" id="CatastroFiscalAddin_addin.btnGenerarCPU" image="Images\location (1).png" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="CatastroFiscal" category="CatastroFiscal" id="CatastroFiscalAddin_addin.toolbar" showInitially="true"><Items><Button refID="CatastroFiscalAddin_addin.btnCargarCapas" /><Button refID="CatastroFiscalAddin_addin.btnVerificacionDominios" /><Button refID="CatastroFiscalAddin_addin.btnDuplicadoTabular" /><Button refID="CatastroFiscalAddin_addin.btnDuplicadoEspacial" /><Button refID="CatastroFiscalAddin_addin.btnGenerarID" /><Button refID="CatastroFiscalAddin_addin.btnGenerarCPU" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
